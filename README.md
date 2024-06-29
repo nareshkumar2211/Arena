@@ -1,18 +1,18 @@
-## Getting Started
+<h3>Player.java</h3>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<h4>Class:</h4>
+*The Player class is defined using the public access modifier
 
-## Folder Structure
+<h4>Object (Instance):</h4>
+*Objects of the Player class are created using the constructor public Player(String name, int health, int strength, int attack).
 
-The workspace contains two folders by default, where:
+<h4>Encapsulation:</h4>
+*Data hiding and encapsulation are achieved by making the fields private (private int health, private int strength, private int attack, private String name).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+<h4>Constructor:</h4>
+*The constructor public Player(String name, int health, int strength, int attack) initializes the state of each Player object when it is instantiated.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+<h4>Methods:</h4>
+*Instance Methods: toString(), getHealth(), isAlive(), receiveDamage(int damage), attack(int diceRoll), defend(int diceRoll) are instance methods because they operate on specific instances of the Player class.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
