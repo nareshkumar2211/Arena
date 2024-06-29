@@ -16,3 +16,11 @@
 <h4>Methods:</h4>
 *Instance Methods: toString(), getHealth(), isAlive(), receiveDamage(int damage), attack(int diceRoll), defend(int diceRoll) are instance methods because they operate on specific instances of the Player class.
 
+<h3>Main.java</h3>
+<h4>Classes and Objects:</h4>
+Class Definition: The Player class and the Main class are defined.
+Object Creation: Objects playerA and playerB of the Player class are created in the main method.
+Instance Variables: playerA, playerB, and random are instance variables of the Main class.
+
+<h4>Polymorphism</h4>
+Method Overriding: In the Player class, methods like attack, defend, and receiveDamage can be overridden in subclasses to provide different behaviors for different types of players.
