@@ -16,7 +16,6 @@
   </ol>
   <pre><code>java Main</code></pre>
 
-  <h2>Classes and Objects</h2>
   <h3>Player.java</h3>
   <h4>Class:</h4>
   <ul>
