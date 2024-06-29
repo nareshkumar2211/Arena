@@ -55,7 +55,10 @@ public class Main {
         System.out.println("Player unit test");        
         //player unit test
         PlayerUnitTest.unittest();
-        System.out.println("Main unit test");  
+        System.out.println("\nMain unit test");  
+        MainUnitTest.unittest();
+        System.out.println("end---Main unit test---end");  
+
     }
 }
 

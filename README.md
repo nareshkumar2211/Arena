@@ -27,3 +27,4 @@ Method Overriding: In the Player class, methods like attack, defend, and receive
 
 <h4>UNIT TEST</h4>
 Unit test added for Player.java
+Unit test added for Main.java
