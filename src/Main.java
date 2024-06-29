@@ -51,6 +51,11 @@ public class Main {
 
         Main game = new Main(playerA, playerB); // Create a game instance with player A and player B
         game.run(); // Start the game simulation
+        System.out.println();
+        System.out.println("Player unit test");        
+        //player unit test
+        PlayerUnitTest.unittest();
+        System.out.println("Main unit test");  
     }
 }
 
